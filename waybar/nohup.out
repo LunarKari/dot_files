@@ -1,0 +1,8 @@
+[2024-08-19 18:07:22.537] [info] Using configuration file /home/Luna/.config/waybar/config
+[2024-08-19 18:07:22.539] [info] Unable to receive desktop appearance: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Settings” on object at path /org/freedesktop/portal/desktop
+[2024-08-19 18:07:22.539] [info] Using CSS file /home/Luna/.config/waybar/style.css
+[2024-08-19 18:07:22.544] [info] Hyprland IPC starting
+[2024-08-19 18:07:22.545] [info] Loading persistent workspaces from Waybar config
+[2024-08-19 18:07:22.545] [info] Loading persistent workspaces from Hyprland workspace rules
+[2024-08-19 18:07:22.674] [info] Bar configured (width: 1417, height: 34) for output: eDP-1
+Gdk-Message: 18:20:30.272: Error reading events from display: Broken pipe

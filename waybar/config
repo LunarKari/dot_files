@@ -1,0 +1,69 @@
+{
+    "name": "bar1",
+    "layer": "top",
+    "position": "top",
+    "height": 0,
+    "margin": "5 0 0 0",
+    "width": 1417,
+    "font": "FiraCode Nerd Font 12",
+    "spacing": 20,
+    "reload_style_on_change": true,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["backlight", "cpu", "memory", "network", "pulseaudio", "battery"],
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{percent}% {icon}",
+        "format-icons": [" ", " "]
+    }, 
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "urgent": "",
+            "visible": "",
+            "active": "",
+            "focused": "",
+            "default": ""
+        },
+        "persistent-workspaces": {
+             "*": 5, // 5 workspaces by default on every monitor
+             "eDP-1": [1,2,3,4,5] // but only three on HDMI-A-1
+       }
+    },
+    
+    "clock": {
+        "format": "{:%Y-%m-%d %H:%M:%S}",
+        "tooltip": false
+    },
+
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "  {used}G",
+        "tooltip": false
+    },
+
+    "network": {
+        "format": "  {ipaddr}",
+        "format-down": "  No Connection",
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "  {volume}%",
+        "format-muted": " Muted",
+        "tooltip": false
+    },
+
+    "battery": {
+        "format": "{capacity}% {icon} ",
+        "tooltip": false,
+        "format-icons": ["", "", "", "", ""]
+    },
+
+}

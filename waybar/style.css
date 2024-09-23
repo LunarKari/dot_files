@@ -1,0 +1,53 @@
+* {
+    font-family: "FiraCode Nerd Font", monospace;
+    font-size: 12px;
+}
+
+window#waybar { 
+    background: rgba(0, 0, 0, 0.7);
+    border: 1.4px solid rgba(277, 0, 130, 0.5);
+    border-radius: 10px;
+    color: white;
+}
+
+#backlight {
+    color: #b4165d;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#battery {
+    padding-right: 10px;
+    color: #b4165d;
+}
+
+#workspaces .active {
+    color: #b4165d;
+}
+
+#cpu {
+    color: #b4165d;
+}
+
+#memory {
+    color: #b4165d;
+}
+
+#network {
+    color: #b4165d;
+}
+
+#pulseaudio {
+    color: #b4165d;
+}
+
+#battery.critical {
+    color: #b4165d;
+}
+
+#battery.low {
+    color: #b4165d;
+}
+
