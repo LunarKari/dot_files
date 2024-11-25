@@ -2,15 +2,14 @@
     "name": "bar1",
     "layer": "top",
     "position": "top",
-    "height": 0,
-    "margin": "5 0 0 0",
-    "width": 1417,
-    "font": "FiraCode Nerd Font 12",
+    "height": 30,
+    "margin": "3 5 0 5",
+    "font": "FiraCode Nerd Font 8",
     "spacing": 20,
     "reload_style_on_change": true,
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["clock"],
-    "modules-right": ["backlight", "cpu", "memory", "network", "pulseaudio", "battery"],
+    "modules-center": [],
+    "modules-right": ["tray","backlight", "cpu", "memory", "network", "pulseaudio", "battery", "clock"],
 
     "backlight": {
         "device": "intel_backlight",
@@ -34,8 +33,9 @@
     },
     
     "clock": {
-        "format": "{:%Y-%m-%d %H:%M:%S}",
+        "format": "  {:%Y-%m-%d %H:%M}",
         "tooltip": false
+
     },
 
     "cpu": {
@@ -61,7 +61,7 @@
     },
 
     "battery": {
-        "format": "{capacity}% {icon} ",
+        "format": "{icon} {capacity}%",
         "tooltip": false,
         "format-icons": ["", "", "", "", ""]
     },
