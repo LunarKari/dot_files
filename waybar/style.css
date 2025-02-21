@@ -1,12 +1,12 @@
 * {
     font-family: "FiraCode Nerd Font", monospace;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 window#waybar { 
     background: rgba(0, 0, 0, 0.7);
     border: 1.0px solid rgba(277, 0, 130, 0.5);
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
 }
 

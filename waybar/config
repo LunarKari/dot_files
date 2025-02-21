@@ -3,7 +3,7 @@
     "layer": "top",
     "position": "top",
     "height": 30,
-    "margin": "3 5 0 5",
+    "margin": "0 10 0 10",
     "font": "FiraCode Nerd Font 8",
     "spacing": 20,
     "reload_style_on_change": true,

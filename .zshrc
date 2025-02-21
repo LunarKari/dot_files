@@ -71,7 +71,7 @@ ZSH_THEME="lunarium"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -107,9 +107,10 @@ eval "$(zoxide init zsh)"
 alias nv="nvim"
 export PATH="$PATH:${HOME}/scripts"
 export ANDROID_NDK_HOME="$HOME/Android/Sdk/ndk/27.0.12077973"
-alias rm='echo "You may want to use the trash command! if you really want to use rm, use backslash rm"; false'
 alias icat='kitty icat'
 alias find='fd'
 alias df='duf'
 alias ls='lsd'
 alias cat='bat'
+export PATH="$PATH:/home/Luna/.local/share/gem/ruby/3.3.0/bin"
+export QT_QPA_PLATFORMTHEME=qt5ct
